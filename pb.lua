@@ -726,7 +726,7 @@ UICorner_27.Parent = ImageLabel_20
 
 -- Scripts:
 
-local function ABMH_fake_script() -- TextButton_2.LocalScript 
+local function MBZS_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local g = script.Parent.Parent.Parent.Parent.Money
@@ -737,8 +737,8 @@ local function ABMH_fake_script() -- TextButton_2.LocalScript
 		g.Visible = true
 	end)
 end
-coroutine.wrap(ABMH_fake_script)()
-local function ZNYZY_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(MBZS_fake_script)()
+local function WTRARNC_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -746,38 +746,38 @@ local function ZNYZY_fake_script() -- TextButton_3.LocalScript
 		script.Parent.Parent.Parent.Parent.Popular.Visible = true
 	end)
 end
-coroutine.wrap(ZNYZY_fake_script)()
-local function LFMFGLM_fake_script() -- TextLabel.LocalScript 
+coroutine.wrap(WTRARNC_fake_script)()
+local function OMGRJP_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	script.Parent.Text = game.Players.LocalPlayer.Name
 end
-coroutine.wrap(LFMFGLM_fake_script)()
-local function NULBTK_fake_script() -- ImageLabel_5.LocalScript 
+coroutine.wrap(OMGRJP_fake_script)()
+local function SXSQ_fake_script() -- ImageLabel_5.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel_5)
 
 	script.Parent.Image = "https://www.roblox.com/headshot-thumbnail/image?userId="..game.Players.LocalPlayer.UserId.."&width=420&height=420&format=png"
 end
-coroutine.wrap(NULBTK_fake_script)()
-local function APBHE_fake_script() -- TextLabel_2.LocalScript 
+coroutine.wrap(SXSQ_fake_script)()
+local function JHWFU_fake_script() -- TextLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_2)
 
 	script.Parent.Text = game.Players.LocalPlayer.Name
 end
-coroutine.wrap(APBHE_fake_script)()
-local function FXMYYN_fake_script() -- ImageLabel_9.LocalScript 
+coroutine.wrap(JHWFU_fake_script)()
+local function QNZHGC_fake_script() -- ImageLabel_9.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel_9)
 
 	script.Parent.Image = "https://www.roblox.com/headshot-thumbnail/image?userId="..game.Players.LocalPlayer.UserId.."&width=420&height=420&format=png"
 end
-coroutine.wrap(FXMYYN_fake_script)()
-local function STDPD_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(QNZHGC_fake_script)()
+local function XMNH_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	script.Parent.Draggable = true
 end
-coroutine.wrap(STDPD_fake_script)()
-local function UEYK_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(XMNH_fake_script)()
+local function CLGHESF_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local load = script.Parent.Parent.load
@@ -830,8 +830,8 @@ local function UEYK_fake_script() -- ImageButton.LocalScript
 	
 	
 end
-coroutine.wrap(UEYK_fake_script)()
-local function LJGISEP_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(CLGHESF_fake_script)()
+local function WBJE_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	local g = script.Parent.Parent.Parent.Parent.Home
@@ -841,8 +841,8 @@ local function LJGISEP_fake_script() -- TextButton_4.LocalScript
 		g.Visible = true
 	end)
 end
-coroutine.wrap(LJGISEP_fake_script)()
-local function YKAIJP_fake_script() -- TextButton_6.LocalScript 
+coroutine.wrap(WBJE_fake_script)()
+local function PVPLSFI_fake_script() -- TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_6)
 
 	local g = script.Parent.Parent.Parent.Parent.Popular
@@ -853,28 +853,28 @@ local function YKAIJP_fake_script() -- TextButton_6.LocalScript
 		g.Visible = true
 	end)
 end
-coroutine.wrap(YKAIJP_fake_script)()
-local function VBREYTX_fake_script() -- TextLabel_7.LocalScript 
+coroutine.wrap(PVPLSFI_fake_script)()
+local function KDIV_fake_script() -- TextLabel_7.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_7)
 
 	script.Parent.Text = game.Players.LocalPlayer.Name
 end
-coroutine.wrap(VBREYTX_fake_script)()
-local function ZFXV_fake_script() -- TextButton_7.LocalScript 
+coroutine.wrap(KDIV_fake_script)()
+local function TSQXZU_fake_script() -- TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/Zx061kiT", true))()
 	end)
 end
-coroutine.wrap(ZFXV_fake_script)()
-local function XPWW_fake_script() -- ImageLabel_15.LocalScript 
+coroutine.wrap(TSQXZU_fake_script)()
+local function KODNC_fake_script() -- ImageLabel_15.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel_15)
 
 	script.Parent.Image = "https://www.roblox.com/headshot-thumbnail/image?userId="..game.Players.LocalPlayer.UserId.."&width=420&height=420&format=png"
 end
-coroutine.wrap(XPWW_fake_script)()
-local function QEUP_fake_script() -- TextButton_8.LocalScript 
+coroutine.wrap(KODNC_fake_script)()
+local function SHNOMUI_fake_script() -- TextButton_8.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_8)
 
 	local g = script.Parent.Parent.Parent.Parent.Home
@@ -885,8 +885,8 @@ local function QEUP_fake_script() -- TextButton_8.LocalScript
 		g.Visible = true
 	end)
 end
-coroutine.wrap(QEUP_fake_script)()
-local function QXATSE_fake_script() -- TextButton_9.LocalScript 
+coroutine.wrap(SHNOMUI_fake_script)()
+local function HCRE_fake_script() -- TextButton_9.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_9)
 
 	local g = script.Parent.Parent.Parent.Parent.Money
@@ -897,14 +897,14 @@ local function QXATSE_fake_script() -- TextButton_9.LocalScript
 		g.Visible = true
 	end)
 end
-coroutine.wrap(QXATSE_fake_script)()
-local function BNZFQ_fake_script() -- TextLabel_9.LocalScript 
+coroutine.wrap(HCRE_fake_script)()
+local function AZJFK_fake_script() -- TextLabel_9.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_9)
 
 	script.Parent.Text = game.Players.LocalPlayer.Name
 end
-coroutine.wrap(BNZFQ_fake_script)()
-local function CIVJWIK_fake_script() -- TextButton_11.LocalScript 
+coroutine.wrap(AZJFK_fake_script)()
+local function RGEID_fake_script() -- TextButton_11.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_11)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -951,12 +951,14 @@ local function CIVJWIK_fake_script() -- TextButton_11.LocalScript
 		startAutoFarm()
 	end)
 end
-coroutine.wrap(CIVJWIK_fake_script)()
-local function YLRZFHD_fake_script()
-	print("hlo") -- TextButton_12.LocalScript 
+coroutine.wrap(RGEID_fake_script)()
+local function KZUG_fake_script() -- TextButton_12.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_12)
+	loadstring(game:HttpGet("https://pastebin.com/raw/Zx061kiT", true))()
 end
-coroutine.wrap(YLRZFHD_fake_script)()
-local function XCRQSF_fake_script() -- TextButton_13.LocalScript 
+
+coroutine.wrap(KZUG_fake_script)()
+local function SQJK_fake_script() -- TextButton_13.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_13)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -969,8 +971,8 @@ local function XCRQSF_fake_script() -- TextButton_13.LocalScript
 		end
 	end)
 end
-coroutine.wrap(XCRQSF_fake_script)()
-local function BYUB_fake_script() -- TextButton_14.LocalScript 
+coroutine.wrap(SQJK_fake_script)()
+local function DWXUYP_fake_script() -- TextButton_14.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_14)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -984,4 +986,10 @@ local function BYUB_fake_script() -- TextButton_14.LocalScript
 		chr.RightFoot.Transparency = "1"
 	end)
 end
-coroutine.wrap(BYUB_fake_script)()
+coroutine.wrap(DWXUYP_fake_script)()
+local function MSGBFJ_fake_script() -- ImageLabel_20.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel_20)
+
+	script.Parent.Image = "https://www.roblox.com/headshot-thumbnail/image?userId="..game.Players.LocalPlayer.UserId.."&width=420&height=420&format=png"
+end
+coroutine.wrap(MSGBFJ_fake_script)()
