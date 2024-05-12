@@ -985,9 +985,3 @@ local function BYUB_fake_script() -- TextButton_14.LocalScript
 	end)
 end
 coroutine.wrap(BYUB_fake_script)()
-local function BSHAR_fake_script() -- ImageLabel_20.LocalScript 
-	local script = Instance.new('LocalScript', ImageLabel_20)
-
-	script.Parent.Image = "https://www.roblox.com/headshot-thumbnail/image?userId="..game.Players.LocalPlayer.UserId.."&width=420&height=420&format=png"
-end
-coroutine.wrap(BSHAR_fake_script)()
