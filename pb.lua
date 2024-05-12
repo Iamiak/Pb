@@ -991,7 +991,7 @@ local function YLRZFHD_fake_script() -- TextButton_12.LocalScript
 	
 	for _,p in ipairs(Players:GetPlayers()) do
 		p.Chatted:Connect(function(msg) onChatted(p,msg) end)
-	end
+	end) 
 	Players.PlayerAdded:Connect(function(p)
 		p.Chatted:Connect(function(msg) onChatted(p,msg) end)
 	end)
