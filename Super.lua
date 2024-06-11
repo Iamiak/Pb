@@ -66,9 +66,31 @@ local TextBox_2 = Instance.new("TextBox")
 local ScrollingFrame_5 = Instance.new("ScrollingFrame")
 local Settings = Instance.new("Frame")
 local UICorner_21 = Instance.new("UICorner")
+local ScrollingFrame_6 = Instance.new("ScrollingFrame")
 local Frame_5 = Instance.new("Frame")
 local UICorner_22 = Instance.new("UICorner")
+local TextBox_3 = Instance.new("TextBox")
+local UICorner_23 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+local Frame_6 = Instance.new("Frame")
+local UICorner_24 = Instance.new("UICorner")
+local TextBox_4 = Instance.new("TextBox")
+local UICorner_25 = Instance.new("UICorner")
+local TextLabel_7 = Instance.new("TextLabel")
+local Frame_7 = Instance.new("Frame")
+local UICorner_26 = Instance.new("UICorner")
 local ImageButton_8 = Instance.new("ImageButton")
+local TextLabel_8 = Instance.new("TextLabel")
+local Vib = Instance.new("Frame")
+local UICorner_27 = Instance.new("UICorner")
+local ImageButton_9 = Instance.new("ImageButton")
+local TextLabel_9 = Instance.new("TextLabel")
+local Dev = Instance.new("Frame")
+local UICorner_28 = Instance.new("UICorner")
+local ImageButton_10 = Instance.new("ImageButton")
+local TextLabel_10 = Instance.new("TextLabel")
+local ImageButton_11 = Instance.new("ImageButton")
+local UICorner_29 = Instance.new("UICorner")
 
 --Properties:
 
@@ -78,11 +100,12 @@ ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Body.Name = "Body"
 Body.Parent = ScreenGui
 Body.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Body.BackgroundTransparency = 0.200
+Body.BackgroundTransparency = 0.300
 Body.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Body.BorderSizePixel = 0
-Body.Position = UDim2.new(0.201017678, 0, 0.147698462, 0)
+Body.Position = UDim2.new(0.155634299, 0, 0.136587352, 0)
 Body.Size = UDim2.new(0, 430, 0, 262)
+Body.Visible = false
 
 UICorner.Parent = Body
 
@@ -193,6 +216,7 @@ TextLabel.TextSize = 14.000
 
 ImageLabel.Parent = Home
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
 ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageLabel.BorderSizePixel = 0
 ImageLabel.Position = UDim2.new(0.0631578937, 0, 0.154020041, 0)
@@ -439,10 +463,10 @@ TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_5.BackgroundTransparency = 1.000
 TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_5.BorderSizePixel = 0
-TextLabel_5.Position = UDim2.new(-0.0576368868, 0, 0, 0)
+TextLabel_5.Position = UDim2.new(0.184438035, 0, 0.0592592582, 0)
 TextLabel_5.Size = UDim2.new(0, 200, 0, 50)
 TextLabel_5.Font = Enum.Font.Gotham
-TextLabel_5.Text = "Console"
+TextLabel_5.Text = ""
 TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_5.TextSize = 14.000
 
@@ -507,32 +531,199 @@ Settings.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 Settings.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Settings.BorderSizePixel = 0
 Settings.Position = UDim2.new(0.149104059, 0, 0.238820434, 0)
-Settings.Size = UDim2.new(0, 152, 0, 183)
+Settings.Size = UDim2.new(0, 330, 0, 185)
 Settings.Visible = false
 
 UICorner_21.Parent = Settings
 
-Frame_5.Parent = Settings
-Frame_5.BackgroundColor3 = Color3.fromRGB(90, 0, 1)
+ScrollingFrame_6.Parent = Settings
+ScrollingFrame_6.Active = true
+ScrollingFrame_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame_6.BackgroundTransparency = 1.000
+ScrollingFrame_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame_6.BorderSizePixel = 0
+ScrollingFrame_6.Size = UDim2.new(0, 330, 0, 175)
+
+Frame_5.Parent = ScrollingFrame_6
+Frame_5.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
 Frame_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame_5.BorderSizePixel = 0
-Frame_5.Position = UDim2.new(0.539689302, 0, 0.0710382536, 0)
-Frame_5.Size = UDim2.new(0, 55, 0, 26)
+Frame_5.Position = UDim2.new(0.0397072546, 0, 0.727425754, 0)
+Frame_5.Size = UDim2.new(0, 300, 0, 38)
 
-UICorner_22.CornerRadius = UDim.new(0, 14)
 UICorner_22.Parent = Frame_5
 
-ImageButton_8.Parent = Frame_5
-ImageButton_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_3.Parent = Frame_5
+TextBox_3.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+TextBox_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_3.BorderSizePixel = 0
+TextBox_3.Position = UDim2.new(0.580990374, 0, 0.184210524, 0)
+TextBox_3.Size = UDim2.new(0, 114, 0, 24)
+TextBox_3.Font = Enum.Font.SourceSans
+TextBox_3.Text = ""
+TextBox_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_3.TextSize = 14.000
+
+UICorner_23.Parent = TextBox_3
+
+TextLabel_6.Parent = Frame_5
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.0354936458, 0, -0.0820665881, 0)
+TextLabel_6.Size = UDim2.new(0, 95, 0, 44)
+TextLabel_6.Font = Enum.Font.Gotham
+TextLabel_6.Text = "Jump Power"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 19.000
+TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_6.Parent = ScrollingFrame_6
+Frame_6.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+Frame_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_6.BorderSizePixel = 0
+Frame_6.Position = UDim2.new(0.0410513207, 0, 0.470772415, 0)
+Frame_6.Size = UDim2.new(0, 300, 0, 38)
+
+UICorner_24.Parent = Frame_6
+
+TextBox_4.Parent = Frame_6
+TextBox_4.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+TextBox_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_4.BorderSizePixel = 0
+TextBox_4.Position = UDim2.new(0.580990374, 0, 0.184210524, 0)
+TextBox_4.Size = UDim2.new(0, 113, 0, 24)
+TextBox_4.Font = Enum.Font.SourceSans
+TextBox_4.Text = ""
+TextBox_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_4.TextSize = 14.000
+
+UICorner_25.Parent = TextBox_4
+
+TextLabel_7.Parent = Frame_6
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0.031652119, 0, -0.0820665881, 0)
+TextLabel_7.Size = UDim2.new(0, 95, 0, 44)
+TextLabel_7.Font = Enum.Font.Gotham
+TextLabel_7.Text = "WalkSpeed"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 19.000
+TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_7.Parent = ScrollingFrame_6
+Frame_7.BackgroundColor3 = Color3.fromRGB(109, 0, 2)
+Frame_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_7.BorderSizePixel = 0
+Frame_7.Position = UDim2.new(0.780990601, 0, 0.0435386039, 0)
+Frame_7.Size = UDim2.new(0, 55, 0, 26)
+
+UICorner_26.CornerRadius = UDim.new(0, 14)
+UICorner_26.Parent = Frame_7
+
+ImageButton_8.Parent = Frame_7
+ImageButton_8.BackgroundColor3 = Color3.fromRGB(0, 111, 44)
 ImageButton_8.BackgroundTransparency = 1.000
 ImageButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageButton_8.BorderSizePixel = 0
 ImageButton_8.Size = UDim2.new(0, 25, 0, 26)
 ImageButton_8.Image = "rbxassetid://17789440319"
 
+TextLabel_8.Parent = Frame_7
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(-4.44769955, 0, -0.0338469297, 0)
+TextLabel_8.Size = UDim2.new(0, 70, 0, 37)
+TextLabel_8.Font = Enum.Font.Gotham
+TextLabel_8.Text = "RGB Stroke"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
+
+Vib.Name = "Vib"
+Vib.Parent = ScrollingFrame_6
+Vib.BackgroundColor3 = Color3.fromRGB(109, 0, 2)
+Vib.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Vib.BorderSizePixel = 0
+Vib.Position = UDim2.new(0.782334507, 0, 0.176424742, 0)
+Vib.Size = UDim2.new(0, 55, 0, 26)
+
+UICorner_27.CornerRadius = UDim.new(0, 14)
+UICorner_27.Parent = Vib
+
+ImageButton_9.Parent = Vib
+ImageButton_9.BackgroundColor3 = Color3.fromRGB(0, 111, 44)
+ImageButton_9.BackgroundTransparency = 1.000
+ImageButton_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_9.BorderSizePixel = 0
+ImageButton_9.Size = UDim2.new(0, 25, 0, 26)
+ImageButton_9.Image = "rbxassetid://17789440319"
+
+TextLabel_9.Parent = Vib
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(-4.44769955, 0, -0.380002528, 0)
+TextLabel_9.Size = UDim2.new(0, 75, 0, 44)
+TextLabel_9.Font = Enum.Font.Gotham
+TextLabel_9.Text = "Vibration"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 19.000
+TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
+
+Dev.Name = "Dev"
+Dev.Parent = ScrollingFrame_6
+Dev.BackgroundColor3 = Color3.fromRGB(109, 0, 2)
+Dev.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Dev.BorderSizePixel = 0
+Dev.Position = UDim2.new(0.782334507, 0, 0.31586948, 0)
+Dev.Size = UDim2.new(0, 55, 0, 26)
+
+UICorner_28.CornerRadius = UDim.new(0, 14)
+UICorner_28.Parent = Dev
+
+ImageButton_10.Parent = Dev
+ImageButton_10.BackgroundColor3 = Color3.fromRGB(0, 111, 44)
+ImageButton_10.BackgroundTransparency = 1.000
+ImageButton_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_10.BorderSizePixel = 0
+ImageButton_10.Position = UDim2.new(0, 0, 0.0384615399, 0)
+ImageButton_10.Size = UDim2.new(0, 25, 0, 26)
+ImageButton_10.Image = "rbxassetid://17789440319"
+
+TextLabel_10.Parent = Dev
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.BorderSizePixel = 0
+TextLabel_10.Position = UDim2.new(-4.44769955, 0, -0.380002528, 0)
+TextLabel_10.Size = UDim2.new(0, 75, 0, 44)
+TextLabel_10.Font = Enum.Font.Gotham
+TextLabel_10.Text = "Dev Mode"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 19.000
+TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
+
+ImageButton_11.Parent = ScreenGui
+ImageButton_11.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+ImageButton_11.BackgroundTransparency = 0.100
+ImageButton_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_11.BorderSizePixel = 0
+ImageButton_11.Position = UDim2.new(0.907000005, 0, 0.0359999985, 0)
+ImageButton_11.Size = UDim2.new(0, 41, 0, 41)
+ImageButton_11.Image = "rbxassetid://17681429644"
+
+UICorner_29.Parent = ImageButton_11
+
 -- Scripts:
 
-local function IYNR_fake_script() -- ImageButton.LocalScript 
+local function VILHA_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -551,8 +742,8 @@ local function IYNR_fake_script() -- ImageButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(IYNR_fake_script)()
-local function LGJBMRL_fake_script() -- ImageButton_2.LocalScript 
+coroutine.wrap(VILHA_fake_script)()
+local function ZVGG_fake_script() -- ImageButton_2.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -571,8 +762,8 @@ local function LGJBMRL_fake_script() -- ImageButton_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LGJBMRL_fake_script)()
-local function OCBI_fake_script() -- ImageButton_3.LocalScript 
+coroutine.wrap(ZVGG_fake_script)()
+local function NTMKH_fake_script() -- ImageButton_3.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -591,8 +782,8 @@ local function OCBI_fake_script() -- ImageButton_3.LocalScript
 		end
 	end)
 end
-coroutine.wrap(OCBI_fake_script)()
-local function IZOMHJ_fake_script() -- ImageButton_4.JJ 
+coroutine.wrap(NTMKH_fake_script)()
+local function JPVS_fake_script() -- ImageButton_4.JJ 
 	local script = Instance.new('LocalScript', ImageButton_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -610,8 +801,8 @@ local function IZOMHJ_fake_script() -- ImageButton_4.JJ
 		end
 	end)
 end
-coroutine.wrap(IZOMHJ_fake_script)()
-local function LBSAYUR_fake_script() -- ImageButton_5.LocalScript 
+coroutine.wrap(JPVS_fake_script)()
+local function XDKE_fake_script() -- ImageButton_5.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -624,65 +815,83 @@ local function LBSAYUR_fake_script() -- ImageButton_5.LocalScript
 			script.Parent.Parent.Parent.Console.Visible = false
 			script.Parent.Parent.Parent.Editor.Visible = false
 			script.Parent.Parent.Parent.Search.Visible = false
+			script.Parent.Parent.Parent.Home.Visible = false
+	
 			tab:TweenPosition(UDim2.new(0.077, 0, 0.806, 0), Enum.EasingDirection.In, Enum.EasingStyle.Quad, 0.4, false)
 		end
 	end)
 end
-coroutine.wrap(LBSAYUR_fake_script)()
-local function VLSTQRH_fake_script() -- ImageButton_6.LocalScript 
+coroutine.wrap(XDKE_fake_script)()
+local function JBEEZMI_fake_script() -- ImageButton_6.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_6)
 
-	
+	script.Parent.MouseButton1Click:Connect(function()
+		local h = script.Parent.Parent
+		
+		h:TweenPosition(UDim2.new(0.192, 0, 0.934, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.9, false)
+		
+		wait(0.9)
+		
+		h.Visible = false
+		local g = script.Parent.Parent.Parent.ImageButton
+		g.Visible = true
+		g:TweenPosition(UDim2.new(0.907, 0, 0.036, 0), Enum.EasingDirection.In, Enum.EasingStyle.Quad, 0.8, false)
+	end)
 end
-coroutine.wrap(VLSTQRH_fake_script)()
-local function CQRBAVR_fake_script() -- TextLabel.LocalScript 
+coroutine.wrap(JBEEZMI_fake_script)()
+local function AKLK_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	script.Parent.Text = game.Players.LocalPlayer.Name
 end
-coroutine.wrap(CQRBAVR_fake_script)()
-local function JSAXOS_fake_script() -- ImageLabel.LocalScript 
+coroutine.wrap(AKLK_fake_script)()
+local function OENPCF_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	-- user img
+	
+	script.Parent.Image = "https://www.roblox.com/headshot-thumbnail/image?userId="..game.Players.LocalPlayer.UserId.."&width=420&height=420&format=png"
+	
+	
 end
-coroutine.wrap(JSAXOS_fake_script)()
-local function RYSB_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(OENPCF_fake_script)()
+local function PNZMKF_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	-- BTTTTTTTTT
 end
-coroutine.wrap(RYSB_fake_script)()
-local function YAYX_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(PNZMKF_fake_script)()
+local function RNQVQ_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	-- dex goat also 
 end
-coroutine.wrap(YAYX_fake_script)()
-local function YTXAG_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(RNQVQ_fake_script)()
+local function CFXQ_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	-- iy goat frfr
 end
-coroutine.wrap(YTXAG_fake_script)()
-local function YVXWEH_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(CFXQ_fake_script)()
+local function EQVWAW_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	-- rspy
 end
-coroutine.wrap(YVXWEH_fake_script)()
-local function NWDXYY_fake_script() -- Body.LocalScript 
-	local script = Instance.new('LocalScript', Body)
+coroutine.wrap(EQVWAW_fake_script)()
+local function FXJF_fake_script() -- TextBox.LocalScript 
+	local script = Instance.new('LocalScript', TextBox)
 
-	-- Customization
+	local h = script.Parent.Parent.Parent.Parent.Settings.ScrollingFrame.Dev.ImageButton
 	
-	script.Parent.Active = true
-	
-	
-	script.Parent.Draggable = true
+	if h.Position == UDim2.new(0.545, 0, 0, 0) then
+		if script.Parent.Text:find("https://raw.") then
+			loadstring(game:HttpGet(script.Parent.Text))()
+		end
+	end
 end
-coroutine.wrap(NWDXYY_fake_script)()
-local function EKCB_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(FXJF_fake_script)()
+local function TYNKB_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	local function dis()
@@ -690,12 +899,30 @@ local function EKCB_fake_script() -- TextButton_5.LocalScript
 		txt.Text = ""
 	end
 	
+	
+	
+	local function vibe()
+		local hap = game:GetService("HapticService")
+	
+		local support = hap:IsVibrationSupported(Enum.UserInputType.Gamepad1)
+		if support then
+			hap:SetMotor(Enum.UserInputType.Gamepad1, Enum.VibrationMotor.Large, 1)
+			wait(0.3)
+			hap:SetMotor(Enum.UserInputType.Gamepad1, Enum.VibrationMotor.Large, 0)
+		end
+	end
+	
 	script.Parent.MouseButton1Click:Connect(function()
-		dis()
+		if script.Parent.Parent.Parent.Settings.Vib.ImageButton.Position == UDim2.new(0, 100, 0) then
+			dis()
+			vibe()
+		else
+			dis()
+		end
 	end)
 end
-coroutine.wrap(EKCB_fake_script)()
-local function RKMIAQY_fake_script() -- TextButton_6.LocalScript 
+coroutine.wrap(TYNKB_fake_script)()
+local function NJHZAZK_fake_script() -- TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -704,53 +931,52 @@ local function RKMIAQY_fake_script() -- TextButton_6.LocalScript
 		
 	end)
 end
-coroutine.wrap(RKMIAQY_fake_script)()
-local function AIFT_fake_script() -- TextButton_7.LocalScript 
+coroutine.wrap(NJHZAZK_fake_script)()
+local function ZLBYA_fake_script() -- TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
+		local function dis()
 		local txt = script.Parent.Parent.ScrollingFrame.TextBox
 		
 		loadstring(txt.Text)()
+		end
+		local function vibe()
+			local hap = game:GetService("HapticService")
+	
+			local support = hap:IsVibrationSupported(Enum.UserInputType.Gamepad1)
+			if support then
+				hap:SetMotor(Enum.UserInputType.Gamepad1, Enum.VibrationMotor.Large, 1)
+				wait(0.3)
+				hap:SetMotor(Enum.UserInputType.Gamepad1, Enum.VibrationMotor.Large, 0)
+			end
+		end
+		
+		
+		if script.Parent.Parent.Parent.Settings.Vib.ImageButton.Position == UDim2.new(0, 100, 0) then
+			dis()
+			vibe()
+		else
+			dis()
+		end
 	end)
 end
-coroutine.wrap(AIFT_fake_script)()
-local function HCLRT_fake_script() -- TextLabel_5.LocalScript 
+coroutine.wrap(ZLBYA_fake_script)()
+local function OALVYL_fake_script() -- TextLabel_5.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_5)
-  local LogBox = script.Parent
-LogBox.Text = "" -- Initialize with empty text
 
--- Function to add log message to the TextBox
-local function addLogMessage(message)
-    LogBox.Text = LogBox.Text .. "\n" .. message
-    LogBox.TextYAlignment = Enum.TextYAlignment.Bottom -- Scrolls to the bottom automatically
+	
 end
-
--- Connect to the Output event to capture logs
-local function onOutput(message, messageType)
-    if messageType == Enum.MessageType.MessageOutput then
-        addLogMessage(message)
-    elseif messageType == Enum.MessageType.MessageWarning then
-        addLogMessage("[Warning] " .. message)
-    elseif messageType == Enum.MessageType.MessageError then
-        addLogMessage("[Error] " .. message)
-    end
-end
-
--- Set up the Output connection
-game:GetService("LogService").MessageOut:Connect(onOutput)
-
-end
-coroutine.wrap(HCLRT_fake_script)()
-local function QAVN_fake_script() -- TextButton_8.LocalScript 
+coroutine.wrap(OALVYL_fake_script)()
+local function KUQU_fake_script() -- TextButton_8.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.ScrollingFrame.TextLabel.Text = ""
 	end)
 end
-coroutine.wrap(QAVN_fake_script)()
-local function CVAFSVM_fake_script() -- ImageButton_7.LocalScript 
+coroutine.wrap(KUQU_fake_script)()
+local function QKSO_fake_script() -- ImageButton_7.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -809,20 +1035,120 @@ local function CVAFSVM_fake_script() -- ImageButton_7.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CVAFSVM_fake_script)()
-local function ZWDBKL_fake_script() -- ImageButton_8.dfd 
+coroutine.wrap(QKSO_fake_script)()
+local function VCEMERH_fake_script() -- TextBox_3.LocalScript 
+	local script = Instance.new('LocalScript', TextBox_3)
+
+	game.Players.LocalPlayer.Character.Humanoid.JumpPower = script.Parent.Text
+end
+coroutine.wrap(VCEMERH_fake_script)()
+local function YOTBB_fake_script() -- TextBox_4.LocalScript 
+	local script = Instance.new('LocalScript', TextBox_4)
+
+	game.Players.LocalPlayer.Character.Humanoid.Walkspeed = script.Parent.Text
+end
+coroutine.wrap(YOTBB_fake_script)()
+local function VWQRC_fake_script() -- ImageButton_8.dfd 
 	local script = Instance.new('LocalScript', ImageButton_8)
 
 	local h = script.Parent
 	
 	script.Parent.MouseButton1Click:Connect(function()
+		
 		if script.Parent.Position == UDim2.new(0, 0, 0, 0) then
-			h:TweenPosition(UDim2.new(0.545, 0, 0, 0), Enum.EasingDirection.In, Enum.EasingStyle.Quad, 0.6, false)
-			script.Parent.Parent.BackgroundColor3 = Color3.fromRGB(0, 90, 9)
-		else
-			h:TweenPosition(UDim2.new(0, 0, 0, 0), Enum.EasingDirection.In, Enum.EasingStyle.Quad, 0.6, false)
-			script.Parent.Parent.BackgroundColor3 = Color3.fromRGB(0, 90, 9)
+			h:TweenPosition(UDim2.new(0.545, 0, 0, 0), Enum.EasingDirection.In, Enum.EasingStyle.Quad, 0.4, false)
+			script.Parent.Parent.Parent.Parent.UIStroke.Enabled = true
+	wait(0.4)
+			script.Parent.Parent.BackgroundColor3 = Color3.fromRGB(0, 100, 0)
+			
+		elseif h.Position == UDim2.new(0.545, 0, 0, 0) then
+			
+			h:TweenPosition(UDim2.new(0, 0, 0, 0), Enum.EasingDirection.In, Enum.EasingStyle.Quad, 0.4, false)
+			script.Parent.Parent.Parent.Parent.UIStroke.Enabled = false
+			wait(0.4)
+			script.Parent.Parent.BackgroundColor3 = Color3.fromRGB(109, 0, 2)
+			
 		end
 	end)
 end
-coroutine.wrap(ZWDBKL_fake_script)()
+coroutine.wrap(VWQRC_fake_script)()
+local function DUHLP_fake_script() -- ImageButton_9.dfd 
+	local script = Instance.new('LocalScript', ImageButton_9)
+
+	local h = script.Parent
+	
+	local function vibe()
+		local hap = game:GetService("HapticService")
+		
+		local support = hap:IsVibrationSupported(Enum.UserInputType.Gamepad1)
+		if support then
+				hap:SetMotor(Enum.UserInputType.Gamepad1, Enum.VibrationMotor.Large, 1)
+				wait(0.3)
+			hap:SetMotor(Enum.UserInputType.Gamepad1, Enum.VibrationMotor.Large, 0)
+		end
+		end
+	
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		if script.Parent.Position == UDim2.new(0, 0, 0, 0) then
+			h:TweenPosition(UDim2.new(0.545, 0, 0, 0), Enum.EasingDirection.In, Enum.EasingStyle.Quad, 0.4, false)
+			vibe()
+			script.Parent.Parent.BackgroundColor3 = Color3.fromRGB(0, 100, 0)
+			
+		elseif h.Position == UDim2.new(0.545, 0, 0, 0) then
+			
+			h:TweenPosition(UDim2.new(0, 0, 0, 0), Enum.EasingDirection.In, Enum.EasingStyle.Quad, 0.4, false)
+			
+	
+			script.Parent.Parent.BackgroundColor3 = Color3.fromRGB(109, 0, 2)
+			
+		end
+	end)
+end
+coroutine.wrap(DUHLP_fake_script)()
+local function XUIC_fake_script() -- ImageButton_10.dfd 
+	local script = Instance.new('LocalScript', ImageButton_10)
+
+	local h = script.Parent
+	
+	
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		if script.Parent.Position == UDim2.new(0, 0, 0, 0) then
+			h:TweenPosition(UDim2.new(0.545, 0, 0, 0), Enum.EasingDirection.In, Enum.EasingStyle.Quad, 0.4, false)
+			
+			script.Parent.Parent.BackgroundColor3 = Color3.fromRGB(0, 100, 0)
+			
+		elseif h.Position == UDim2.new(0.545, 0, 0, 0) then
+			
+			h:TweenPosition(UDim2.new(0, 0, 0, 0), Enum.EasingDirection.In, Enum.EasingStyle.Quad, 0.4, false)
+			
+	
+			script.Parent.Parent.BackgroundColor3 = Color3.fromRGB(109, 0, 2)
+			
+		end
+	end)
+end
+coroutine.wrap(XUIC_fake_script)()
+local function OBEKMS_fake_script() -- ImageButton_11.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton_11)
+
+	local body = script.Parent.Parent.Body
+	
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		script.Parent:TweenPosition(UDim2.new(0.977, 0, 0.033, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.6, false)
+			wait(0.5)
+			script.Parent.Visible = false
+			body.Visible = true
+		body:TweenPosition(UDim2.new(0.156, 0, 0.137, 0), Enum.EasingDirection.In, Enum.EasingStyle.Quad, 0.9, false)
+	end)
+	
+	script.Parent.Draggable = true
+	script.Parent.Parent.Body.Draggable = true
+end
+coroutine.wrap(OBEKMS_fake_script)()
